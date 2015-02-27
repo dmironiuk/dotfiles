@@ -104,7 +104,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-
+" Custom file types
+autocmd BufRead,BufNewFile *.supervisord.conf setlocal filetype=dosini
 
 " Settings for vim-powerline
 " cd ~/.vim/bundle
